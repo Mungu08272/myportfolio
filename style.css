@@ -443,4 +443,18 @@ background:#128C7E;
 
 .buyers-gallery img:hover{
     transform: scale(1.05);
+}/* Mobile Responsive */
+@media (max-width: 768px) {
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
 }
